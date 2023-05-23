@@ -1,11 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "../src/components/header.jsx";
+import Header from "./components/navbar.jsx";
 import { Route, Routes } from "react-router-dom";
-import Home from "../src/components/Home/home.jsx";
-import MovieList from "../src/components/MovieList/movieList.jsx";
-import ModelMovie from "../src/components/modelMovie/modelMovie.jsx";
-import Movie from "../src/components/movie/movie.jsx";
+import Home from "./components/home.jsx";
+import MovieList from "./components/movieList.jsx";
+import ModelMovie from "./components/modelMovie.jsx";
+import Movie from "./components/movie.jsx";
 function App() {
   return (
     <div className="App">
